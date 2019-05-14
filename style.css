@@ -84,7 +84,7 @@ html, body, .container {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    background-color: #f0b270; 
+    background-color: #f0b270;
     text-align: left;
   }
  /* latin-ext */
@@ -141,3 +141,98 @@ html, body, .container {
 	background-color: #f0b270;
 }
 /*<-- END OF FORM -->*/
+
+/*<--CARD-->*/
+.row{
+margin: 20px;
+}
+.card {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f0e9dc;
+}
+ .card-header {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: transparent;
+  border-bottom: none;
+  height: 40px;
+}
+.event-image img {
+  width: 100%;
+  height: 150px;
+}
+
+.event-info {
+  background-color: #E38F71;
+}
+.card-bottom{
+  text-align: center;
+  margin: auto;
+}
+
+.btn{
+  border-radius: 5px;
+  border-color:#825d5b;
+  background-color: #F0B270;
+}
+.btn:hover{
+  background-color: #E38F71 !important;
+}
+/*<--END OF CARD-->*/
+
+/*<--GOOGLE MATERIAL ICONS-->*/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/*<--END OF GOOGLE MATERIAL ICONS-->*/
+
+
+/*<--LIST-->*/
+.list-group-item{
+  background-color: #F0B270;
+}
+
+.list-group-item:hover{
+  background-color: #E38F71 !important;
+}
+.user-profile-picture:before{
+
+}
+.user-profile-picture img{
+  height: 60px;
+  width: 60px;
+  border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.user-comments-number{
+  position:absolute;
+      bottom:0;
+      right:10px;
+}
+
+/*<--END OF LIST-->*/
