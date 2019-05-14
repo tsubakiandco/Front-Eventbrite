@@ -162,6 +162,15 @@ margin: 20px;
 .btn:hover{
   background-color: #E38F71 !important;
 }
+
+.city-info{
+  height: 30px;
+  border: none;
+}
+.city-image img {
+  width: 100%;
+  height: 150px;
+}
 /*<--END OF CARD-->*/
 
 /*<--GOOGLE MATERIAL ICONS-->*/
