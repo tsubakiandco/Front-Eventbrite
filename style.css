@@ -9,7 +9,7 @@ html, body, .container {
 }
 
 .img-container{
-	background-image: url(background.jpg);
+	background-image: url(./img/background.jpg);
 	height: 70%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -18,6 +18,24 @@ html, body, .container {
 }
 
 .inner-container{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	color: white;
+	height: auto;
+	margin-top: 200px;
+}
+
+.img-container-small{
+	background-image: url(./img/banner2.jpg);
+	height: 40%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.inner-container-small{
 	text-align: center;
 	position: absolute;
 	width: 100%;
