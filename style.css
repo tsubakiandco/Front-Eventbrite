@@ -224,5 +224,28 @@ margin: 20px;
       bottom:0;
       right:10px;
 }
-
 /*<--END OF LIST-->*/
+
+/*<--COMMENTS-->*/
+.comments-user-profile-picture img{
+  height: 80px;
+  width: 80px;
+  border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.comments-user-profile-picture{
+margin-right: 5px;
+}
+.comment-item{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.comments-date{
+  position:absolute;
+      top:0;
+      right:10px;
+}
+/*<--END OF COMMENTS-->*/
