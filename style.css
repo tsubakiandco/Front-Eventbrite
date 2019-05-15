@@ -152,13 +152,12 @@ html, body, .container {
      padding-top: 450px;
 
 }
-.row{
-margin: 20px;
-}
+
 .card {
   border-radius: 5px;
   text-align: center;
   background-color: #f0e9dc;
+  margin: 20px;
 }
  .card-header {
   display: flex;
@@ -267,3 +266,45 @@ margin-right: 5px;
       right:10px;
 }
 /*<--END OF COMMENTS-->*/
+
+/*<--RESOURCE PRESENTATION ->*/
+#resource-container{
+  width:60%;
+  background-color: #F0B270;
+}
+
+.resource-info {
+  padding: 20px;
+}
+
+.bottom-resource-info{
+  position: absolute;
+  bottom: 0;
+}
+
+.top-container img {
+  width: 100%;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px grey solid;
+  border-bottom:1px  grey solid;
+}
+
+.material-icons{
+  margin-left: 5px;
+}
+
+.bottom-container .col-8{
+  padding: 0px 80px;
+}
+
+.middle button{
+  width: 200px;
+  margin: 10px 12px 10px 0px;
+}
+
+/*<--END OF RESOURCE PRESENTATION ->*/
