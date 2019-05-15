@@ -265,6 +265,10 @@ margin-right: 5px;
       top:0;
       right:10px;
 }
+.list-group-item{
+  border-radius: 5px;
+
+}
 /*<--END OF COMMENTS-->*/
 
 /*<--RESOURCE PRESENTATION ->*/
