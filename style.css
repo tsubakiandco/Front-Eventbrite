@@ -121,10 +121,19 @@ html, body, .container {
 .btn
 {
 	background-color: #f0b270;
+  border-radius: 5px;
+  border-color:#825d5b;
+}
+.btn:hover{
+  background-color: #E38F71 !important;
 }
 /*<-- END OF FORM -->*/
 
 /*<--CARD-->*/
+.event-container{
+     padding-top: 450px;
+
+}
 .row{
 margin: 20px;
 }
@@ -153,16 +162,6 @@ margin: 20px;
   text-align: center;
   margin: auto;
 }
-
-.btn{
-  border-radius: 5px;
-  border-color:#825d5b;
-  background-color: #F0B270;
-}
-.btn:hover{
-  background-color: #E38F71 !important;
-}
-
 .city-info{
   height: 30px;
   border: none;
